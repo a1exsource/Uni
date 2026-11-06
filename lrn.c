@@ -9,7 +9,14 @@
 int main(){
 
 	int age = 25;
-	printf("Hello, world, %d\n", age);
+	printf("Hello, world, %p\n", (void *)&age);
+
+	int i;
+	int *p;
+
+	p = &i;
+
+
 	
 	return 0;
 }
